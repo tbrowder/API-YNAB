@@ -1,0 +1,6 @@
+use Test;
+use API::YNAB;
+
+pass "replace me";
+
+done-testing;
