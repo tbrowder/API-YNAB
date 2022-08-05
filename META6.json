@@ -9,14 +9,16 @@
   ],
   "description": "blah blah blah",
   "license": "Artistic-2.0",
-  "name": "API::YNAB",
+  "name": "API-YNAB",
   "perl": "6.d",
   "provides": {
-    "API::YNAB": "lib/API/YNAB.rakumod"
+    "API-YNAB": "lib/API-YNAB.rakumod",
+    "Constants": "lib/Constants.rakumod",
+    "HolidayAPI": "lib/HolidayAPI.rakumod"
   },
   "resources": [
   ],
-  "source-url": "",
+  "source-url": "https://github.com/tbrowder/API-YNAB.git",
   "tags": [
   ],
   "test-depends": [
