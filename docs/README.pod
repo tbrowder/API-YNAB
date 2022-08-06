@@ -19,7 +19,7 @@ In order to access the user's account, he must generate a personal token with YN
 an environment variable C<YNAB_TOKEN> at every https request.
 
 This module will include a program to obtain various YNAB information in JSON format. Another program
-will convert the JSON data into OFX format suitable for uploading into the free L<https://gnucash.org|GnuCash> double-entry accounting program.
+will convert the JSON data into OFX format suitable for uploading into the free L<GnuCash|https://gnucash.org> double-entry accounting program.
 Of course the OFX should be able to be used in other programs as well. Note the OFX format is documented at L<https://financialdataexchange.org>.
 
 =head1 AUTHOR
