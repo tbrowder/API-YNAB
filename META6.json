@@ -6,8 +6,12 @@
   "build-depends": [
   ],
   "depends": [
+    "Data::Dump",
+    "JSON::Fast",
+    "Config::TOML",
+    "HTTP::UserAgent"
   ],
-  "description": "blah blah blah",
+  "description": "Provides code for using the YNAB API (ynab.com) to download ones bank and credit card transactions",
   "license": "Artistic-2.0",
   "name": "API-YNAB",
   "perl": "6.d",
@@ -20,6 +24,7 @@
   ],
   "source-url": "https://github.com/tbrowder/API-YNAB.git",
   "tags": [
+    "YNAB OFX finance bank transaction GnuCash"
   ],
   "test-depends": [
   ],
