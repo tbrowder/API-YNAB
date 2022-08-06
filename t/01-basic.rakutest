@@ -1,5 +1,5 @@
 use Test;
-use API::YNAB;
+use API-YNAB;
 
 pass "replace me";
 

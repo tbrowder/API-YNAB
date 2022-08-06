@@ -16,9 +16,7 @@
   "name": "API-YNAB",
   "perl": "6.d",
   "provides": {
-    "API-YNAB": "lib/API-YNAB.rakumod",
-    "Constants": "lib/Constants.rakumod",
-    "HolidayAPI": "lib/HolidayAPI.rakumod"
+    "API-YNAB": "lib/API-YNAB.rakumod"
   },
   "resources": [
   ],
