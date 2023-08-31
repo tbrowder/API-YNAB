@@ -15,22 +15,34 @@ use API::YNAB;
 =head1 DESCRIPTION
 
 API::YNAB is a module providing access to the YNAB API and all the user's account data.
-In order to access the user's account, he must generate a personal token with YNAB's executable and provide its value as the value of
-an environment variable C<YNAB_TOKEN> at every https request.
+In order to access the user's account, he must generate a personal token with YNAB's 
+executable and provide its value as the value of an environment variable C<YNAB_TOKEN> 
+at every https request.
 
-This module will include a program to obtain various YNAB information in JSON format. Another program
-will convert the JSON data into OFX format suitable for uploading into the free L<GnuCash|https://gnucash.org> double-entry accounting program.
-Of course the OFX should be able to be used in other programs as well. Note the OFX format is documented at L<https://financialdataexchange.org>.
+This module will include a program to obtain various YNAB information in JSON format. 
+Another program will convert the JSON data into OFX format suitable for uploading into 
+the free L<GnuCash|https://gnucash.org> double-entry accounting program.  Of course the 
+OFX should be able to be used in other programs as well. Note the OFX format is documented 
+at L<https://financialdataexchange.org>.
 
-The data downloaded from YNAB queries will be kept in an SQLite database for easy recall. The table for that intially
-will look like this:
+The data downloaded from YNAB queries will be kept in an SQLite database for easy recall. 
+The table for that initialy will look like this:
 
 =begin code
 create table if not exists QUERIES {
 }
 =end code
 
-=head1 AUTHOR
+=head1 OTHER SOLUTIONS
+
+Other projects are available to aid the user in converting data to OFX or CVS format. 
+Some of those are listed below.
+
+=begin item pdf...
+
+=end item
+
+head1 AUTHOR
 
 Tom Browder <tbrowder@acm.org>
 
