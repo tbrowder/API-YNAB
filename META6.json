@@ -16,7 +16,8 @@
   "name": "API-YNAB",
   "perl": "6.d",
   "provides": {
-    "API-YNAB": "lib/API-YNAB.rakumod"
+    "API-YNAB": "lib/API-YNAB.rakumod",
+    "Endpoints": "lib/Endpoints.rakumod"
   },
   "resources": [
   ],
